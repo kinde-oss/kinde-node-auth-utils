@@ -1,6 +1,6 @@
 {
   "name": "@kinde-oss/kinde-node-auth-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Kinde JWT verification utilities",
   "author": {
     "name": "Kinde",
@@ -21,7 +21,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@kinde-oss/kinde-express": "^0.0.1",
     "axios": "^0.25.0",
     "base64url": "^3.0.1",
     "jwk-to-pem": "^2.0.5"
