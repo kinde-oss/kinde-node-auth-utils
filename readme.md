@@ -1,6 +1,6 @@
 # @kinde-oss/kinde-node-auth-utils
 
-Kinde JWT NodeJS utils.
+Kinde JWT NodeJS utils. This library is used to support `kinde-node` and `kinde-express`.
 
 ## Install
 
