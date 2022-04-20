@@ -1,4 +1,4 @@
-# @kinde-oss/kinde-auth-node-utils
+# @kinde-oss/kinde-node-auth-utils
 
 Kinde JWT NodeJS utils.
 
@@ -7,11 +7,11 @@ Kinde JWT NodeJS utils.
 Run the following command using npm:
 
 ```
-npm install @kinde-oss/kinde-auth-node-utils
+npm install @kinde-oss/kinde-node-auth-utils
 ```
 
 If you prefer Yarn, use this command instead:
 
 ```
-yarn add @kinde-oss/kinde-auth-node-utils
+yarn add @kinde-oss/kinde-node-auth-utils
 ```
