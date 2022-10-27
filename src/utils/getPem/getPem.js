@@ -6,9 +6,11 @@ const getPem = async (domain) => {
   const {data} = await axios.get(keyUrl);
 
   if (data && data.keys) {
+    console.log("Got the keys");
     const [firstKey] = data.keys;
     return jwkToPem(firstKey);
   }
+  console.log("No keys found at: ", keyUrl);
   return undefined;
 };
 

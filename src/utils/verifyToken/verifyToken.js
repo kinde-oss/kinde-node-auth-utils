@@ -11,7 +11,6 @@ const verifyToken = (JWT, pem) => {
   verifyFunction.end();
 
   const jwtSignatureBase64 = base64.toBase64(signature);
-
   try {
     const isSignatureValid = verifyFunction.verify(
       pem,

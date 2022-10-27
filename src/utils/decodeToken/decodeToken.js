@@ -8,6 +8,7 @@ function decodeToken(base64url) {
     const json = JSON.parse(utf8);
     jsonString = JSON.stringify(json, null, 4);
   } catch (err) {
+    console.log('Bad Section.\nError: ' + err.message);
     jsonString = 'Bad Section.\nError: ' + err.message;
   }
   return jsonString;

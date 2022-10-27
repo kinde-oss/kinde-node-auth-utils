@@ -1,6 +1,6 @@
 {
   "name": "@kinde-oss/kinde-node-auth-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Kinde JWT verification utilities",
   "author": {
     "name": "Kinde",
